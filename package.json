@@ -23,6 +23,7 @@
     "dotfile"
   ],
   "dependencies": {
-    "meow": "^3.7.0"
+    "meow": "^3.7.0",
+    "path-symlink": "^0.0.2"
   }
 }

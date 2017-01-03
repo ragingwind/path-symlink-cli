@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 'use strict';
 const meow = require('meow');
-const pathSymlinkCli = require('./');
+const pathSymlink= require('path-symlink');
 
 const cli = meow(`
 	Usage
@@ -20,6 +20,6 @@ if (cli.input.length < 2) {
 }
 
 const dest = cli.input.pop();
-
-console.log(cli);
-// console.log(pathSymlinkCli(cli.input, dest));
+pathSymlink(cli.input, dest, cli.flags).then(links => {
+	links.map(link => console.log(`Create a link to ${link}`));
+});
