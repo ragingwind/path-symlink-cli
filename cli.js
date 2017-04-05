@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 'use strict';
 const meow = require('meow');
-const unenvify = require('enenvify');
+const unenvify = require('unenvify');
 const untildify = require('untildify');
 const pathSymlink= require('path-symlink');
 
