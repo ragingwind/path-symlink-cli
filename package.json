@@ -9,7 +9,9 @@
     "email": "ragingwind@gmail.com",
     "url": "ragingwind.me"
   },
-  "bin": "cli.js",
+  "bin": {
+    "sn": "cli.js"
+  },
   "engines": {
     "node": ">=6"
   },
@@ -24,6 +26,7 @@
   ],
   "dependencies": {
     "meow": "^3.7.0",
-    "path-symlink": "^0.0.2"
+    "path-symlink": "^0.0.2",
+    "unenvify": "^0.1.0"
   }
 }
