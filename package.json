@@ -27,6 +27,7 @@
   "dependencies": {
     "meow": "^3.7.0",
     "path-symlink": "^0.0.2",
-    "unenvify": "^0.1.0"
+    "unenvify": "^0.1.0",
+    "untildify": "^3.0.2"
   }
 }

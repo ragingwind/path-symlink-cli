@@ -327,6 +327,10 @@ unenvify@^0.1.0:
   version "0.1.0"
   resolved "https://registry.yarnpkg.com/unenvify/-/unenvify-0.1.0.tgz#c6463fda05c518458e52e58de9666c242d953697"
 
+untildify@^3.0.2:
+  version "3.0.2"
+  resolved "https://registry.yarnpkg.com/untildify/-/untildify-3.0.2.tgz#7f1f302055b3fea0f3e81dc78eb36766cb65e3f1"
+
 validate-npm-package-license@^3.0.1:
   version "3.0.1"
   resolved "https://registry.yarnpkg.com/validate-npm-package-license/-/validate-npm-package-license-3.0.1.tgz#2804babe712ad3379459acfbe24746ab2c303fbc"
